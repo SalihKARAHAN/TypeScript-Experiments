@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="app.js"></script>
+        <script>
+            window.onload = function(){
+                console.log(arguments);
+                var main = App.Main;
+                console.log('main', main);
+                var app = new main();
+                console.log('app', app);
+                app.Caller();
+            }
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
