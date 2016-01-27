@@ -1,9 +1,9 @@
 /// <reference path="util.ts" />
 
-module Namespacing2{
+module Library {
     export class Program{
         Main(){
-            var util = new Library.Core.Util();
+            var util = new Core.Util();
             alert(util.GetType(""));
         }
     }
