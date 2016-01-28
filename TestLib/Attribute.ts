@@ -1,6 +1,5 @@
-
-module Library {
-    export class Attribute implements IRenderable {
+namespace Library {
+    export class Attribute {
         private _name: string; // private değişken tanımlama
         private _value: string;
 
@@ -9,8 +8,8 @@ module Library {
             this._value = value;
         }
 
-        RenderToHtml(domOjbect: IRenderable): void {
-            // TODO: rendering... _name+'="'+_value+'"'
-        }
+        // RenderToHtml(domOjbect: IRenderable): void {
+        //     // TODO: rendering... _name+'="'+_value+'"'
+        // }
     }
 }

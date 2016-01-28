@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "es5"
-        , "out": "Library.js"
+         , "out": "../output/Library.js"
     },
     "compileOnSave": true,
     "buildOnSave": false,
@@ -9,6 +9,10 @@
         "IRenderable.ts"
         , "Attribute.ts"
         , "Event.ts"
+        , "Element.ts"
+        , "Elements/OptionElement.ts"
+        , "Elements/SelectElement.ts"
+        , "Program.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

@@ -1,5 +1,5 @@
-module Library {
-    export interface IRenderable {
-        RenderToHtml(domOjbect: IRenderable):void;
+namespace Library {
+     export interface IRenderable {
+        RenderToHtml():void;
     }
 }

@@ -1,4 +1,4 @@
-module Library {
+namespace Library {
     export class Event {
         static Register(element: any, event: string, callback: any): void {
 
