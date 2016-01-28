@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5"
+        , "out": "Library.js"
+    },
+    "compileOnSave": true,
+    "buildOnSave": false,
+    "files": [
+        "IRenderable.ts"
+        , "Attribute.ts"
+        , "Event.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
